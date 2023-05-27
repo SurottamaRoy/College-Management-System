@@ -186,72 +186,7 @@ public class HomeController {
     }
 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
    
-//    @PostMapping("/students")
-//    public ResponseEntity<Student> saveStudent(@RequestBody StudentRequest request) {
-//        // Create a new Student object from the request
-//        Student student = new Student();
-//        student.setName(request.getName());
-//
-//        // Iterate over the subjects in the request and create new Subject, Teacher, and Mark objects for each one
-//        Set<Subject> subjects = new HashSet<>();
-//        for (SubjectRequest subjectRequest : request.getSubjects()) {
-//            Subject subject = new Subject();
-//            subject.setName(subjectRequest.getName());
-//
-//            Teacher teacher = new Teacher();
-//            teacher.setName(subjectRequest.getTeacherName());
-//
-//            Mark mark = new Mark();
-//            mark.setScore(subjectRequest.getMark());
-//
-//            // Associate the subject with the teacher
-//            subject.setTeacher(teacher);
-//
-//            // Associate the student with the subject and mark
-//            student.getSubjects().add(subject);
-//            subject.getStudents().add(student);
-//
-//            mark.setStudent(student);
-//            mark.setSubject(subject);
-//            student.getMarks().add(mark);
-//
-//            // Save the new objects to the database
-//            teacherRepository.save(teacher);
-//            subjectRepository.save(subject);
-//            markRepository.save(mark);
-//        }
-//
-//        // Save the new student to the database
-//        studentRepository.save(student);
-//
-//        return ResponseEntity.ok(student);
-//    }
-//
-//    
     
   
        
